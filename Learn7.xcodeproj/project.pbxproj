@@ -7,25 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91521A9C15A56E1600565E1E /* Jupiter.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91521A9B15A56E1600565E1E /* Jupiter.gif */; };
 		91C8971815983AC400E7A6DB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C8971715983AC400E7A6DB /* UIKit.framework */; };
 		91C8971A15983AC400E7A6DB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C8971915983AC400E7A6DB /* Foundation.framework */; };
 		91C8971C15983AC400E7A6DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91C8971B15983AC400E7A6DB /* CoreGraphics.framework */; };
 		91C8972215983AC400E7A6DB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91C8972015983AC400E7A6DB /* InfoPlist.strings */; };
 		91C8972415983AC400E7A6DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8972315983AC400E7A6DB /* main.m */; };
 		91C8972815983AC400E7A6DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8972715983AC400E7A6DB /* AppDelegate.m */; };
+		91C8973415983BC700E7A6DB /* FirstLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8973215983BC700E7A6DB /* FirstLevelController.m */; };
+		91C8973815983DFD00E7A6DB /* SecondLevelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8973715983DFD00E7A6DB /* SecondLevelController.m */; };
+		91C8973A1598409400E7A6DB /* Pear.gif in Resources */ = {isa = PBXBuildFile; fileRef = 91C897391598409400E7A6DB /* Pear.gif */; };
+		91C8973D1598415200E7A6DB /* DisclosureButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8973C1598415200E7A6DB /* DisclosureButtonController.m */; };
+		91C897401598418B00E7A6DB /* DisclosureDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C8973F1598418B00E7A6DB /* DisclosureDetailController.m */; };
+		91C89742159847FF00E7A6DB /* DisclosureDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91C89741159847FF00E7A6DB /* DisclosureDetail.xib */; };
+		91C89745159849CC00E7A6DB /* CheckListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C89744159849CC00E7A6DB /* CheckListController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91521A9B15A56E1600565E1E /* Jupiter.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Jupiter.gif; sourceTree = "<group>"; };
 		91C8971315983AC300E7A6DB /* Learn7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn7.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C8971715983AC400E7A6DB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		91C8971915983AC400E7A6DB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		91C8971B15983AC400E7A6DB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		91C8971F15983AC400E7A6DB /* Learn7-Info.plist */ = {isa = PBXFileReference; path = "Learn7-Info.plist"; sourceTree = "<group>"; };
+		91C8971F15983AC400E7A6DB /* Learn7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Learn7-Info.plist"; sourceTree = "<group>"; };
 		91C8972115983AC400E7A6DB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		91C8972315983AC400E7A6DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		91C8972515983AC400E7A6DB /* Learn7-Prefix.pch */ = {isa = PBXFileReference; path = "Learn7-Prefix.pch"; sourceTree = "<group>"; };
-		91C8972615983AC400E7A6DB /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		91C8972515983AC400E7A6DB /* Learn7-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Learn7-Prefix.pch"; sourceTree = "<group>"; };
+		91C8972615983AC400E7A6DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		91C8972715983AC400E7A6DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91C8973115983BC700E7A6DB /* FirstLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstLevelController.h; sourceTree = "<group>"; };
+		91C8973215983BC700E7A6DB /* FirstLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstLevelController.m; sourceTree = "<group>"; };
+		91C8973615983DFD00E7A6DB /* SecondLevelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondLevelController.h; sourceTree = "<group>"; };
+		91C8973715983DFD00E7A6DB /* SecondLevelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondLevelController.m; sourceTree = "<group>"; };
+		91C897391598409400E7A6DB /* Pear.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Pear.gif; path = "../../../../../Library/Application Support/Apple/iChat Icons/Fruit/Pear.gif"; sourceTree = "<group>"; };
+		91C8973B1598415100E7A6DB /* DisclosureButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureButtonController.h; sourceTree = "<group>"; };
+		91C8973C1598415200E7A6DB /* DisclosureButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureButtonController.m; sourceTree = "<group>"; };
+		91C8973E1598418B00E7A6DB /* DisclosureDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DisclosureDetailController.h; sourceTree = "<group>"; };
+		91C8973F1598418B00E7A6DB /* DisclosureDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DisclosureDetailController.m; sourceTree = "<group>"; };
+		91C89741159847FF00E7A6DB /* DisclosureDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DisclosureDetail.xib; sourceTree = "<group>"; };
+		91C89743159849CC00E7A6DB /* CheckListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckListController.h; sourceTree = "<group>"; };
+		91C89744159849CC00E7A6DB /* CheckListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckListController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +66,19 @@
 		91C8970815983AC300E7A6DB = {
 			isa = PBXGroup;
 			children = (
+				91521A9B15A56E1600565E1E /* Jupiter.gif */,
+				91C89743159849CC00E7A6DB /* CheckListController.h */,
+				91C89744159849CC00E7A6DB /* CheckListController.m */,
+				91C89741159847FF00E7A6DB /* DisclosureDetail.xib */,
+				91C8973E1598418B00E7A6DB /* DisclosureDetailController.h */,
+				91C8973F1598418B00E7A6DB /* DisclosureDetailController.m */,
+				91C8973B1598415100E7A6DB /* DisclosureButtonController.h */,
+				91C8973C1598415200E7A6DB /* DisclosureButtonController.m */,
+				91C897391598409400E7A6DB /* Pear.gif */,
+				91C8973615983DFD00E7A6DB /* SecondLevelController.h */,
+				91C8973715983DFD00E7A6DB /* SecondLevelController.m */,
+				91C8973115983BC700E7A6DB /* FirstLevelController.h */,
+				91C8973215983BC700E7A6DB /* FirstLevelController.m */,
 				91C8971D15983AC400E7A6DB /* Learn7 */,
 				91C8971615983AC400E7A6DB /* Frameworks */,
 				91C8971415983AC300E7A6DB /* Products */,
@@ -141,6 +175,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				91C8972215983AC400E7A6DB /* InfoPlist.strings in Resources */,
+				91C8973A1598409400E7A6DB /* Pear.gif in Resources */,
+				91C89742159847FF00E7A6DB /* DisclosureDetail.xib in Resources */,
+				91521A9C15A56E1600565E1E /* Jupiter.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +190,11 @@
 			files = (
 				91C8972415983AC400E7A6DB /* main.m in Sources */,
 				91C8972815983AC400E7A6DB /* AppDelegate.m in Sources */,
+				91C8973415983BC700E7A6DB /* FirstLevelController.m in Sources */,
+				91C8973815983DFD00E7A6DB /* SecondLevelController.m in Sources */,
+				91C8973D1598415200E7A6DB /* DisclosureButtonController.m in Sources */,
+				91C897401598418B00E7A6DB /* DisclosureDetailController.m in Sources */,
+				91C89745159849CC00E7A6DB /* CheckListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +298,7 @@
 				91C8972D15983AC400E7A6DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
